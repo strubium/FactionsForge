@@ -24,12 +24,12 @@ public class FactionConfig {
         @Config.Name("Max Faction Description Length")
         @Config.RangeInt(min = 1)
         @Config.Comment("The maximum length of characters in a faction's description")
-        public int maxFactionDescLength = 100;
+        public int maxFactionDescLength = 50;
 
         @Config.Name("Max Faction MOTD Length")
         @Config.RangeInt(min = 1)
         @Config.Comment("The maximum length of characters in a faction's MOTD")
-        public int maxFactionMOTDLength = 100;
+        public int maxFactionMOTDLength = 25;
 
         @Config.Name("MOTD Header")
         @Config.Comment("The text that appears at the top of every MOTD, use %s for the faction name")
@@ -111,7 +111,7 @@ public class FactionConfig {
         @Config.Name("Player Max Power cap")
         @Config.RangeInt(min = 1)
         @Config.Comment("The maximum amount of power the player can ever have")
-        public int playerMaxPowerCap = 1000;
+        public int playerMaxPowerCap = 100;
 
         @Config.Name("Faction home teleport delay")
         @Config.Comment("The delay in seconds before a player teleports when using /faction home")
@@ -141,7 +141,7 @@ public class FactionConfig {
         @Config.Name("Kill max power gain")
         @Config.Comment("The amount a player's maximum power increases by when killing someone")
         @Config.RangeInt(min=0)
-        public int killMaxPowerGain = 30;
+        public int killMaxPowerGain = 0;
 
         @Config.Name("Death power Loss")
         @Config.Comment("The amount of power lost for dying")
