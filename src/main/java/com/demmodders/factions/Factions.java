@@ -24,7 +24,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 
-@Mod(modid = Factions.MODID, name = Factions.NAME, serverSideOnly = true, version = Factions.VERSION, acceptableRemoteVersions  = "*", dependencies = "required-after:datmoddingapi@[1.3.3,)")
+@Mod(modid = Factions.MODID, name = Factions.NAME, version = Factions.VERSION, acceptableRemoteVersions  = "*", dependencies = "required-after:datmoddingapi@[1.3.3,)")
 public class Factions {
     public static final String MODID = "demfactions";
     public static final String NAME = "Factions";
